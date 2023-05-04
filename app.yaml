@@ -1,4 +1,4 @@
-runtime: php74
+﻿runtime: php74
 
 handlers:
 # Serve images as static resources.
@@ -12,5 +12,3 @@ handlers:
 
 env_variables:
   DOCUMENT_ROOT: /home/av000032/Wbt2228
-
-   
