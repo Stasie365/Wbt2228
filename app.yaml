@@ -7,7 +7,7 @@ handlers:
   upload: .+\.(gif|png|jpg|css|js)$
 
 # Serve php scripts.
-- url: /.*
+- url: /home/av000032/Wbt2228
   script: auto
 
 env_variables:
