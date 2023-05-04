@@ -9,5 +9,5 @@ handlers:
 # Serve php scripts.
 - url: .*
   script: auto
-  runtime_config:
+  options:
     document_root: public
