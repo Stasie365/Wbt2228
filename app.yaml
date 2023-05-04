@@ -9,5 +9,5 @@ handlers:
 # Serve php scripts.
 - url: .*
   script: auto
-  options:
-    document_root: public
+  env_variables:
+    DOCUMENT_ROOT: /home/av000032/Wbt2228
