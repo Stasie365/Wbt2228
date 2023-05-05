@@ -126,6 +126,7 @@ session_start();
 						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
 						<li><?php
                              include "db.php";
+							 ini_set("display_errors",1);
                             if(isset($_SESSION["uid"])){
                                 $sql = "SELECT first_name FROM user_info WHERE user_id='$_SESSION[uid]'";
                                 $query = mysqli_query($con,$sql);
