@@ -1,8 +1,8 @@
 <?php
 
-$servername = "34.65.217.214";
-$username = "webappuser";
-$password = "asojfqw948rjq98wrj98ar";
+$servername = "34.65.95.232";
+$username = "Stasie";
+$password = "AcPjH8";
 $db = "wbt2122";
 
 // Create connection
